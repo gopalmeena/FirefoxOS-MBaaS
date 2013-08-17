@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Random Quotes</title> 
+	<link rel="stylesheet" href="jquery.mobile-1.3.1.min.css" />
+	<script src="jquery-1.7.1.min.js"></script>
+	<script src="jquery.mobile-1.3.1.min.js"></script>
+	<script src="http://da189i1jfloii.cloudfront.net/js/kinvey-html5-1.0.4.min.js"></script>
+	<script src="app.js"></script>
+</head> 
+	
+<body> 
+
+<!-- Start of first page: #home -->
+<div data-role="page" id="home">
+
+	<div data-role="header" data-position="fixed">
+	    <h3>Random Quotes</h3>  
+	</div><!-- /header -->
+
+	<div data-role="content">
+	    <p>List of Authors</div>	
+		<ul data-role="listview" id="authorList">
+		</ul>		
+	</div><!-- /content -->
+</div><!-- /page home -->
+
+<!-- Start of second page: #quotespage -->
+<div data-role="page" id="quotespage" data-add-back-btn="true">
+
+	<div data-role="header" data-position="fixed">
+	    <h3>Random Quotes</h3>  
+	</div><!-- /header -->
+
+	<div data-role="content">
+		<ul data-role="listview" id="quotesList">
+			
+		</ul>		
+	</div><!-- /content -->
+</div><!-- /page quotespage -->
+</body>
+</html>
